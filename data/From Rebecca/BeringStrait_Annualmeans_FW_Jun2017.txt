@@ -1,0 +1,64 @@
+%** ================================================================= ** 
+%**          BERING STRAIT ANNUAL MEANS - FW                          **
+%** ================================================================= ** 
+%** Processed Jun2017 from transalla3 and v4 etc **
+%**   Contact: Rebecca Woodgate (woodgate@apl.washington.edu) (206)-221-3268
+%**   Background: http://psc.apl.washington.edu/BeringStrait.html
+%**                                                            
+%** If you use these data, especially for publications, please:
+%**    a) Email me with the publication reference
+%**    b) Cite the data, viz:
+%**                                                            
+%** CITATIONS:  
+%** 1) Woodgate R.A., K.Stafford, F.Prahl, 2015, 
+%** A Synthesis of Year-round Interdisciplinary Mooring Measurements  
+%** in the Bering Strait (1990-2014) and the RUSALCA years (2004-2011), 
+%** Oceanography 28(3):46-67, doi:10.5670/oceanog.2015.57 
+%** 2) Woodgate, R.A., submitted 2017                                 
+%** Increases in the Pacific inflow to the Arctic from 1990 to 2015, and 
+%** insights into seasonal trends and driving mechanisms from year-round 
+%** Bering Strait mooring data
+%** Submitted to Progress in Oceanography
+%**                                                            
+%** See those references for methods and data isses                      
+%**                                                            
+%** ================================================================= ** 
+%** ===== ANNUAL (CALENDAR YEAR) MEAN fw fluxes (km^3)         ====== ** 
+%** ===== WITH STANDARD ACC/STratification corrections ============== ** 
+%** ================================================================= ** 
+%** fw = estimate of total annual freshwater flux (no ACC correction)    
+%**     relative to 34.8psu                                            
+%** err = error in that mean                                             
+%** Mooring data used A3 and A3v4 with scorr                                       
+%** corr = with corrections for instrument depth, data dropouts, biofouling         
+%** FWoff1 FWoff2 - high & low estimates for ACC & stratification corrections        
+%** FWLow - A3v4 with scorr + FWoff1, totFWHigh=A3v4 with scorr + FWoff2           
+%** NaN = insufficient data to compute annual mean                       
+%** ----------------------------                                         
+%  YEAR  A3fw A3FWerr   YEAR A3FWcorr A3FWCerr  FWoff1 FWoff2    YEAR A3corrtotFWLow A3corrtotFWHigh 
+   1991   1599    333     1991   1729    360      800   1000     1991      2529      2729  
+   1992    NaN    NaN     1992    NaN    NaN      800   1000     1992       NaN       NaN  
+   1993    NaN    NaN     1993    NaN    NaN      800   1000     1993       NaN       NaN  
+   1994    NaN    NaN     1994    NaN    NaN      800   1000     1994       NaN       NaN  
+   1995    NaN    NaN     1995    NaN    NaN      800   1000     1995       NaN       NaN  
+   1996    NaN    NaN     1996    NaN    NaN      800   1000     1996       NaN       NaN  
+   1997    NaN    NaN     1997    NaN    NaN      800   1000     1997       NaN       NaN  
+   1998    NaN    NaN     1998    NaN    NaN      800   1000     1998       NaN       NaN  
+   1999    NaN    NaN     1999    NaN    NaN      800   1000     1999       NaN       NaN  
+   2000   1508    246     2000   1754    248      800   1000     2000      2554      2754  
+   2001   1320    170     2001   1459    185      800   1000     2001      2259      2459  
+   2002   1644    185     2002   1792    201      800   1000     2002      2592      2792  
+   2003   1986    269     2003   2164    293      800   1000     2003      2964      3164  
+   2004   2091    295     2004   2280    322      800   1000     2004      3080      3280  
+   2005   1435    231     2005   1567    253      800   1000     2005      2367      2567  
+   2006   1657    216     2006   1803    233      800   1000     2006      2603      2803  
+   2007   2106    221     2007   2226    230      800   1000     2007      3026      3226  
+   2008   1730    186     2008   1730    185      800   1000     2008      2530      2730  
+   2009   1936    253     2009   1932    251      800   1000     2009      2732      2932  
+   2010   2280    258     2010   2270    257      800   1000     2010      3070      3270  
+   2011   2352    283     2011   2352    283      800   1000     2011      3152      3352  
+   2012   1576    259     2012   1552    253      800   1000     2012      2352      2552  
+   2013   2459    206     2013   2327    197      800   1000     2013      3127      3327  
+   2014   2729    332     2014   2529    304      800   1000     2014      3329      3529  
+   2015   2523    236     2015   2370    218      800   1000     2015      3170      3370  
+   2016    NaN    NaN     2016    NaN    NaN      800   1000     2016       NaN       NaN  
