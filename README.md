@@ -6,6 +6,8 @@ Arctic Ocean Freshwater Synthesis
 
 MATLAB code to build a schematic diagram of Arctic Ocean freshwater storage and fluxes. Data taken from Jahn & Laiho (2020) and Haine et al. (2015), plus updates.
 
+Run MATLAB codes as follows:
+
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://github.com/jbusecke/cookiecutter-science-project">cookiecutter science project template</a>.</small></p>
