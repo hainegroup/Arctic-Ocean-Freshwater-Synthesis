@@ -13,7 +13,7 @@ Run MATLAB codes as follows:
 * Run `schematic_figure.m` to read Alex Jahn's CESM data from <a target="_blank" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088854">Jahn & Laiho (2020)</a> and make the subplots for the schematic figure (six `.eps` files).
 * Use Mac keynote to build `schematic.key` and hence `schematic.pdf` using the component figure files.
 
-The MATLAB code uses <a target="_blank" href="http://www.teos-10.org/software.htm#1">Gibbs-Seawater (GSW) Oceanographic Toolbox functions</a>.</small></p>
+The MATLAB code uses <a target="_blank" href="http://www.teos-10.org/software.htm#1">Gibbs-Seawater (GSW) Oceanographic Toolbox functions</a>.
  
 A commentary article entitled *Arctic Ocean Freshening Linked to Anthropogenic Climate Change: All Hands on Deck* has been submitted to GRL. See the ESSOAr preprint [here](???).
 
