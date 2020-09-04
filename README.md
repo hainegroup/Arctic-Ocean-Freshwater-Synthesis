@@ -11,7 +11,7 @@ Run MATLAB codes as follows:
 * Run `flux_update.m` to make a diagnostic figure of freshwater fluxes from Haine et al. (2015), plus recent public data updates. This builds the `.mat` file used in the main script.
 * Run `make_LFC_map.m` to make the liquid freshwater content basemap adapted from <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0921818114003129?via%3Dihub">Haine et al. (2015)</a> Fig. 6.
 * Run `schematic_figure.m` to read Alex Jahn's CESM data from <a target="_blank" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088854">Jahn & Laiho (2020)</a> and make the subplots for the schematic figure (six `.eps` files).
-* Use MAC keynote to build `schematic.key` and hence `schematic.pdf` using the component figure files.
+* Use Mac keynote to build `schematic.key` and hence `schematic.pdf` using the component figure files.
 
 The MATLAB code uses <a target="_blank" href="http://www.teos-10.org/software.htm#1">Gibbs-Seawater (GSW) Oceanographic Toolbox functions</a>.</small></p>
  
