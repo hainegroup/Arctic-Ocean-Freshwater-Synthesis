@@ -15,7 +15,7 @@ Run MATLAB codes as follows:
 
 The MATLAB code uses [Gibbs-Seawater (GSW) Oceanographic Toolbox functions](http://www.teos-10.org/software.htm#1).
  
-A commentary article entitled *Arctic Ocean Freshening Linked to Anthropogenic Climate Change: All Hands on Deck* has been submitted to GRL. See the ESSOAr preprint [here](https://www.essoar.org/author/Haine%2C+Thomas+W+N).
+A commentary article entitled *Arctic Ocean Freshening Linked to Anthropogenic Climate Change: All Hands on Deck* has been submitted to GRL. See the ESSOAr preprint [here](10.1002/essoar.10504220.1).
 
 --------
 
