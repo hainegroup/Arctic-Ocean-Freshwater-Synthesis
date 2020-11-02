@@ -87,19 +87,27 @@ for ff = 1:length(flds)
         case 'FW_flux_Davis_annual_net'
             plot_data.(fld).plot_flag = true ;
             plot_data.(fld).handle = subplot(5,2,3) ;
-            plot_data.(fld).title = 'Liquid Davis' ;
+            plot_data.(fld).title = 'Davis' ;       % Acutally it's just liquid flux
         case 'FW_flux_Bering_annual_net'
             plot_data.(fld).plot_flag = true ;
             plot_data.(fld).handle = subplot(5,2,4) ;
-            plot_data.(fld).title = 'Liquid Bering' ;
+            plot_data.(fld).title = 'Bering' ;      % Acutally it's just liquid flux
         case 'Liquid_FW_storage_Arctic_annual'
             plot_data.(fld).plot_flag = true ;
             plot_data.(fld).handle = subplot(5,2,5) ;
-            plot_data.(fld).title = 'Liquid storage' ;
+            plot_data.(fld).title = 'Liquid' ;
         case 'Solid_FW_storage_Arctic_annual'
             plot_data.(fld).plot_flag = true ;
             plot_data.(fld).handle = subplot(5,2,6) ;
-            plot_data.(fld).title = 'Solid storage' ;
+            plot_data.(fld).title = 'Solid' ;
+        case 'runoff_annual'
+            plot_data.(fld).plot_flag = true ;
+            plot_data.(fld).handle = subplot(5,2,7) ;
+            plot_data.(fld).title = 'Runoff' ;
+        case 'netPrec_annual'
+            plot_data.(fld).plot_flag = true ;
+            plot_data.(fld).handle = subplot(5,2,8) ;
+            plot_data.(fld).title = 'Precip. - evap.' ;
     end % switch
     pbaspect([466 232 1]) ;         % Plot box aspect ratio measured from Alex's figure.
 end % ff
@@ -157,6 +165,12 @@ switch fld
         pts = [ASOF_data.liquid_Storage.time,ASOF_data.liquid_Storage.volume.*(93000-19000)./93000] ;       % 19000 km^3 correction is due to Alex's omission of Baffin Bay. See Hetal15 section 2.1.
     case 'Solid_FW_storage_Arctic_annual'
         pts = [ASOF_data.solid_Storage.time,ASOF_data.solid_Storage.volume] ;
+    case 'runoff_annual'
+        tmp = interp1(ASOF_data.Shiklomanov_runoff.time,ASOF_data.Shiklomanov_runoff.flux,ASOF_data.ERAI_runoff.time) ;
+        mean_ASOF_runoff_flux = nanmean([ASOF_data.ERAI_runoff.flux,tmp],2) ;
+        pts = [ASOF_data.ERAI_runoff.time,mean_ASOF_runoff_flux ] ;
+    case 'netPrec_annual'
+        pts = [ASOF_data.ERAI_PmE.time,ASOF_data.ERAI_PmE.flux] ;
 end % switch
 
 % Cut NaN and plot twice to give white halo.
