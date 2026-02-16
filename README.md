@@ -1,7 +1,5 @@
 Arctic Ocean Freshwater Synthesis
 ==============================
-[![Build Status](https://travis-ci.com/ThomasHaine/arctic_ocean_freshwater_synthesis.svg?branch=master)](https://travis-ci.com/ThomasHaine/arctic_ocean_freshwater_synthesis)
-[![codecov](https://codecov.io/gh/ThomasHaine/arctic_ocean_freshwater_synthesis/branch/master/graph/badge.svg)](https://codecov.io/gh/ThomasHaine/arctic_ocean_freshwater_synthesis)
 [![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT)
 
 MATLAB code to build a schematic diagram of Arctic Ocean freshwater storage and fluxes. Data taken from [Jahn & Laiho (2020)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088854) and [Haine et al. (2015)](https://www.sciencedirect.com/science/article/pii/S0921818114003129?via%3Dihub), plus updates.
@@ -15,7 +13,7 @@ Run MATLAB codes as follows:
 
 The MATLAB code uses [Gibbs-Seawater (GSW) Oceanographic Toolbox functions](http://www.teos-10.org/software.htm#1).
  
-A commentary article entitled *Arctic Ocean Freshening Linked to Anthropogenic Climate Change: All Hands on Deck* has been submitted to GRL. See the ESSOAr preprint [here](https://www.essoar.org/doi/abs/10.1002/essoar.10504220.2).
+A commentary article entitled [*Arctic Ocean Freshening Linked to Anthropogenic Climate Change: All Hands on Deck*](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL090678) has been published at GRL.
 
 --------
 
