@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Polar-overturning-circulation-model
+title: Arctic-Ocean-Freshwater-Synthesis
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -16,12 +16,12 @@ authors:
     orcid: 'https://orcid.org/0000-0001-8231-2419'
 identifiers:
   - type: doi
-    value: 10.1175/JPO-D-20-0139.1
-    description: Journal of Physical Oceanography article
+    value: 10.1029/2020gl090678
+    description: Geophysical Research Letters article
 repository-code: >-
-  https://github.com/hainegroup/Polar-overturning-circulation-model
+  https://github.com/hainegroup/Arctic-Ocean-Freshwater-Synthesis
 url: 'https://github.com/hainegroup'
-abstract: Matlab code for Polar Overturning Circulation model
+abstract: MATLAB code to make an Arctic Ocean freshwater synthesis figure with CESM data and synthesized observations.
 keywords:
-  - ocean model
+  - Arctic Ocean freshwater
 license: MIT
